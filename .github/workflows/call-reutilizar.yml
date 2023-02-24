@@ -1,0 +1,10 @@
+name: call-reutilizar
+on:
+  push:
+    branches:
+      - main
+jobs:
+  call-worflow-remote-repo:
+    uses: dummy-git-actions/actions-reutility/.github/worflows/reutilizar.yml@main
+    with:
+      username: Probando primer contacto
