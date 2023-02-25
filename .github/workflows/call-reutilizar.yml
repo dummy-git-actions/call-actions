@@ -6,7 +6,3 @@ on:
 jobs:
   call-worflow-remote-repo:
     uses: dummy-git-actions/actions-reutility/.github/workflows/reutilizar.yml@main
-    with:
-      username: https://github.com/OrcaSlide/orcaslide.git
-    secrets:
-      NPM_TOKEN: "${{secrets.NPM_TOKEN}}"
