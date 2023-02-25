@@ -7,4 +7,4 @@ jobs:
   call-worflow-remote-repo:
     uses: dummy-git-actions/actions-reutility/.github/workflows/reutilizar.yml@main
     with:
-      username: https://github.com/dummy-git-actions/call-actions.git
+      username: https://github.com/konami12/mordor-js.git
