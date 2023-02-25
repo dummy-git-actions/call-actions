@@ -6,3 +6,8 @@ on:
 jobs:
   call-worflow-remote-repo:
     uses: dummy-git-actions/actions-reutility/.github/workflows/reutilizar.yml@main
+    with:
+      reponame: "OrcaSlide/orcaslide"
+    secrets:
+      NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+      GIT_TOKEN: ${{ secrets.GIT_TOKEN }}
