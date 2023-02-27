@@ -5,9 +5,9 @@ on:
       - main
 jobs:
   call-worflow-remote-repo:
-    uses: dummy-git-actions/actions-reutility/.github/workflows/reutilizar.yml@main
+    uses: televisa-digital/orb-npm-publish/.github/workflows/action-npm-publish.yml@feat(JMC)
     with:
-      reponame: "OrcaSlide/orcaslide"
+      reponame: "orcaslide"
     secrets:
       NPM_TOKEN: ${{ secrets.NPM_TOKEN_NEW }}
       GIT_TOKEN: ${{ secrets.GIT_TOKEN }}
